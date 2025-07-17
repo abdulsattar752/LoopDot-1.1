@@ -1,0 +1,561 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_QerEwW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sp_2560-1000_1.webp",
+            "heading": "Kiwai Electric Toothbrush",
+            "heading_size": "h2",
+            "subheading": "The Kiwai Electric Toothbrush offers efficient cleaning with its oscillating bristle technology and ergonomic design, making it a convenient choice for daily oral care.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/kiwai-electric-toothbrush",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cxNmAk": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f684df66b4414d72a440aef500721a55_18x6_2bf65ff3-c338-4b72-aaa8-e1afdf905e73.webp",
+            "heading": "Make the most of World Oral Health Day with a new Kiwai",
+            "heading_size": "h2",
+            "subheading": "<strong>Electric toothbrushes<\/strong>",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_QerEwW",
+        "slide_cxNmAk"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "custom_liquid_mRcfLa": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Icon Bar<\/title>\n<style>\n    body {\n        margin: 0;\n        font-family: Arial, sans-serif;\n    }\n    \n    .icon-bar {\n        width: 166%;\n        background-color: #fff;\n        overflow: auto;\n    }\n    \n    .icon-bar a {\n        float: left;\n        width: 19%;\n        text-align: center;\n        padding: 15px 0;\n        transition: all 0.9s ease;\n        color: black;\n        font-size: 20px;\n        \n    }\n    \n    .icon-bar a:hover {\n        background-color: #134084;\n        \n    transform: skew(5deg);\n    \n    font-size: 10px;\n    color: #ffff;\n\n\n    }\n    \n    .icon-bar a::before {\n        content: '\\2605'; \/* Unicode for a star icon *\/\n        display: contents;\n        margin: 5px auto;\n        font-size: 24px;\n    }\n    \n  \n    .icon-bar a.home::before { content: ''; } \/* Unicode for gear icon *\/\n    .icon-bar a.services::before { content: ''; } \/* Unicode for gear icon *\/\n    .icon-bar a.contact::before { content: ''; } \/* Unicode for email icon *\/\n    .icon-bar a.about::before { content: ''; } \/* Unicode for book icon *\/\n<\/style>\n<\/head>\n<body>\n\n<div class=\"icon-bar\">\n  <a href=\"#\" class=\"home\"> Superior Cleaning <\/a>\n    <a href=\"#\" class=\"about\"> Ease of Use<\/a>\n    <a href=\"#\" class=\"services\"> Improved Oral Health<\/a>\n    <a href=\"#\" class=\"contact\"> Built-in Timers<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_nLiYCg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FnG6Tx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oxyjet-tech-D.jpg",
+            "title": "Oxyjet technology",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HjYf8i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-flossing-D.jpg",
+            "title": "3 flossing streams",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PTJBGd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clip_path_group_10_-tuya.webp",
+            "title": "Multiple intensity modes",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zbmJ6A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iO-rbh-D.webp",
+            "title": "kiwai series exclusives",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FnG6Tx",
+        "column_HjYf8i",
+        "column_PTJBGd",
+        "column_zbmJ6A"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_HB3Ud8": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horizontal Ticker<\/title>\n<style>\n    \/* Base styles *\/\n    body {\n        font-family: Arial, sans-serif;\n        margin: 0;\n        padding: 0;\n    }\n    .ticker-container {\n        overflow: hidden;\n        background-color: #134084 ;\n    }\n    .ticker {\n        white-space: nowrap;\n        animation: ticker-animation 20s linear infinite;\n    }\n    .ticker-item {\n        padding: 05px 70px;\n        display: inline-block;\n        font-size: 20px;\n    }\n\n    \/* Animation keyframes *\/\n    @keyframes ticker-animation {\n        0% {\n            transform: translateX(100%);\n        }\n        100% {\n            transform: translateX(-100%);\n        }\n    }\n<\/style>\n<\/head>\n<body>\n\n<div class=\"ticker-container\">\n    <div class=\"ticker\">\n        <div class=\"ticker-item\">Abdul Sattar<\/div> <div class=\"ticker-item\">liquid code <\/div>\n        <div class=\"ticker-item\">60% Discount Fiest Orders<\/div>\n        <div class=\"ticker-item\">please  order kr do na<\/div>  \n        <div class=\"ticker-item\">liquid code <\/div>\n        <!-- Add more ticker items here -->\n    <\/div>\n<\/div>\n\n<\/body>\n<\/html>",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_gandrT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nDpimW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sonicare Diamond Clean Smart",
+            "heading_size": "h2"
+          }
+        },
+        "text_haBC9P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Sonicare DiamondClean Smart is a premium electric toothbrush known for its advanced features and sleek design.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_MBnfRr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop NOW",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nDpimW",
+        "text_haBC9P",
+        "button_MBnfRr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Electric-Toothbrush-For-Teeth-Brushes-Sonic-Vibration-Dental-Tooth-Whitening-Cleaner-USB-Rechargeable-Oral-Care-Toothbrush_jpg.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_GdbyxP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_MVmDxN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clip_path_group_10_-tuya.webp",
+            "title": "Step 1",
+            "text": "<p><strong>Click to Start<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_k3Xjem": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clip_path_group_12_-tuya.webp",
+            "title": "Step 2",
+            "text": "<p><strong>Supplementary Brushing<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7HNwdy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clip_path_group_11_-tuya.webp",
+            "title": "Styep 3",
+            "text": "<p><strong>Finish<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_MVmDxN",
+        "column_k3Xjem",
+        "column_7HNwdy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dpAp7f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wmLtX8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Connect Your Smile to Kiwai Make Oral Care Easier and More Accessible.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wmLtX8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_iWDRTm": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_ffNyAE": {
+          "type": "caption",
+          "settings": {
+            "caption": "Personalized Recommendation, ExclusiveBrushing Mode , Daily &Weekly &Monthly Report",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "caption_ffNyAE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_WbDJBn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_99yVwp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Electric-Toothbrush-For-Teeth-Brushes-Sonic-Vibration-Dental-Tooth-Whitening-Cleaner-USB-Rechargeable-Oral-Care-Toothbrush_jpg.webp",
+            "title": "<strong>Manual vs electric toothbrush<\/strong>",
+            "text": "<p>A manual toothbrush is what many of us grew up with. You probably have a preferred type of brush and bristle, and there’s no shortage of variety if your needs change.The truth is you can get a great, thorough clean with a manual toothbrush.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8Vyj8M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clip_path_group_12_-tuya.webp",
+            "title": "<strong>What is gingivitis and how to treat it<\/strong>",
+            "text": "<p>If you’re feeling like your gums might not be in peak condition, you’re not alone. Many Americans experience gingivitis but the good news is that with a few key steps and quick action it's entirely treatable.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YQw8in": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ins-pic-03_2x_806d15c5-cf18-4530-a556-79df7a9de986.webp",
+            "title": "<strong>The connection between gum disease and heart disease<\/strong>",
+            "text": "<p>Did you know that there’s likely a direct linkage between the health of your teeth and gums and your heart health? Reserachers are investigating the potential causal relationship between oral health and overall health. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_99yVwp",
+        "column_8Vyj8M",
+        "column_YQw8in"
+      ],
+      "settings": {
+        "title": "Read more about Kiwai toothbrushes",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/kiwai-electric-toothbrush",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_Fr4QUR": {
+      "type": "featured-product",
+      "blocks": {
+        "title_mUfngT": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_tDLagY": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_WD7rNB": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_Cw3BqX": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_hXCqpR": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "icon_with_text_n7rEKm": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "title_mUfngT",
+        "price_tDLagY",
+        "variant_picker_WD7rNB",
+        "quantity_selector_Cw3BqX",
+        "buy_buttons_hXCqpR",
+        "icon_with_text_n7rEKm"
+      ],
+      "settings": {
+        "product": "kiwai-electric-toothbrush",
+        "color_scheme": "scheme-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "collage_GyDacc": {
+      "type": "collage",
+      "blocks": {
+        "image_eA9NnP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Electric-Toothbrush-For-Teeth-Brushes-Sonic-Vibration-Dental-Tooth-Whitening-Cleaner-USB-Rechargeable-Oral-Care-Toothbrush_jpg.webp"
+          }
+        },
+        "product_nrLgAF": {
+          "type": "product",
+          "settings": {
+            "product": "kiwai-electric-toothbrush",
+            "second_image": false
+          }
+        },
+        "image_mYmP8x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clip_path_group_8_-tuya.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_eA9NnP",
+        "product_nrLgAF",
+        "image_mYmP8x"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_hBehaW": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Email Newsletter Signup<\/title>\n<style>\n    body {\n        font-family: Arial, sans-serif;\n        margin: 0;\n        padding: 0;\n        background-color: #f5f5f5;\n    }\n    \n    .container {\n        max-width: 600px;\n        margin: 20px auto;\n        padding: 20px;\n        background-color: #fffff;\n        border-radius: 10px;\n        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);\n    }\n    \n    h2 {\n        text-align: center;\n        margin-bottom: 20px;\n    }\n    \n    .input-group {\n        margin-bottom: 20px;\n    }\n    \n    .input-group input[type=\"email\"] {\n        width: 100%;\n        padding: 10px;\n        border: 1px solid #ccc;\n        border-radius: 5px;\n        font-size: 16px;\n    }\n    \n    .input-group button {\n        width: 100%;\n        padding: 10px;\n        background-color: #134084;\n        border: none;\n        border-radius: 5px;\n        color: #fff;\n        font-size: 16px;\n        cursor: pointer;\n    }\n    \n    @media screen and (max-width: 600px) {\n        .container {\n            width: 80%;\n        }\n    }\n<\/style>\n<\/head>\n<body>\n    <div class=\"container\">\n        <h2>Subscribe to Our Newsletter<\/h2>\n        <form action=\"#\" method=\"post\">\n            <div class=\"input-group\">\n                <input type=\"email\" name=\"email\" placeholder=\"Enter your email address\" required>\n            <\/div>\n            <div class=\"input-group\">\n                <button type=\"submit\">Subscribe<\/button>\n            <\/div>\n        <\/form>\n    <\/div>\n<\/body>\n<\/html>",
+        "color_scheme": "scheme-2",
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "newsletter_jk7T4j": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_WaEfQc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_aPFnzx": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "email_form_tbDNkW": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_WaEfQc",
+        "paragraph_aPFnzx",
+        "email_form_tbDNkW"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_NRADd8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Kf7XaF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_enjiWb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_yy8W4x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kf7XaF",
+        "text_enjiWb",
+        "button_yy8W4x"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "custom_liquid_mRcfLa",
+    "multicolumn_nLiYCg",
+    "custom_liquid_HB3Ud8",
+    "image_with_text_gandrT",
+    "multicolumn_GdbyxP",
+    "rich_text_dpAp7f",
+    "rich_text_iWDRTm",
+    "multicolumn_WbDJBn",
+    "featured_product_Fr4QUR",
+    "collage_GyDacc",
+    "custom_liquid_hBehaW",
+    "newsletter_jk7T4j",
+    "rich_text_NRADd8"
+  ]
+}

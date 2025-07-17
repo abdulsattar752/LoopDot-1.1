@@ -1,0 +1,383 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "icon_with_text_dTHqc4": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "iron",
+            "heading_1": "1  Year Warranty",
+            "icon_2": "apple",
+            "heading_2": "Dentist Approved",
+            "icon_3": "truck",
+            "heading_3": "Free Shipping"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "icon_with_text_dTHqc4"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-2",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "columns",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_DJj4iH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_X3xKhk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Key Features",
+            "icon": "none",
+            "row_content": "<p> Wireless charging dock<br\/>• Built-in dock nightlight<br\/>• Rotating dock that fits any space<br\/>• One mode with 38,000 brush strokes per minute<br\/>• 30 days of battery on a single charge<br\/>• Soft tapered bristles for a deep clean<br\/>• Durable aluminum handle with rubber upper<br\/>• IPX7 waterproof brush. IPX4 splash proof dock<br\/>• Whisper-quiet brushing motor<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ChJVAq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping & Return",
+            "icon": "none",
+            "row_content": "<h2>Returns Policy<\/h2><p>You may return most new, unopened items within 30 days of delivery for a full refund. We'll also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.). You should expect to receive your refund within four weeks of giving your package to the return shipper, however, in many cases you will receive a refund more quickly. This time period includes the transit time for us to receive your return from the shipper (5 to 10 business days), the time it takes us to process your return once we receive it (3 to 5 business days), and the time it takes your bank to process our refund request (5 to 10 business days). If you need to return an item, simply login to your account, view the order using the \"Complete Orders\" link under the My Account menu and click the Return Item(s) button. We'll notify you via e-mail of your refund once we've received and processed the returned item.<\/p><h2>Shipping<\/h2><p>We can ship to virtually any address in the world. Note that there are restrictions on some products, and some products cannot be shipped to international destinations. When you place an order, we will estimate shipping and delivery dates for you based on the availability of your items and the shipping options you choose. Depending on the shipping provider you choose, shipping date estimates may appear on the shipping quotes page. Please also note that the shipping rates for many items we sell are weight-based. The weight of any such item can be found on its detail page. To reflect the policies of the shipping companies we use, all weights will be rounded up to the next full pound.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AkKpr7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lifetime Warranty",
+            "icon": "none",
+            "row_content": "<p>Active subscriptions include a lifetime warranty against manufacturing defects.<\/p><p>One-time purchases include a 1 year warranty from the date of purchase.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_X3xKhk",
+        "collapsible_row_ChJVAq",
+        "collapsible_row_AkKpr7"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/Clip_path_group_8_-tuya.webp",
+        "image_ratio": "small",
+        "desktop_layout": "image_first",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_43tBxE": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Icon Bar<\/title>\n<style>\n    body {\n        margin: 0;\n        font-family: Arial, sans-serif;\n    }\n    \n    .icon-bar {\n        width: 166%;\n        background-color: #fff;\n        overflow: auto;\n    }\n    \n    .icon-bar a {\n        float: left;\n        width: 19%;\n        text-align: center;\n        padding: 15px 0;\n        transition: all 0.9s ease;\n        color: black;\n        font-size: 20px;\n        \n    }\n    \n    .icon-bar a:hover {\n        background-color: #134084;\n        \n    transform: skew(5deg);\n    \n    font-size: 10px;\n    color: #ffff;\n\n\n    }\n    \n    .icon-bar a::before {\n        content: '\\2605'; \/* Unicode for a star icon *\/\n        display: contents;\n        margin: 5px auto;\n        font-size: 24px;\n    }\n    \n  \n    .icon-bar a.home::before { content: ''; } \/* Unicode for gear icon *\/\n    .icon-bar a.services::before { content: ''; } \/* Unicode for gear icon *\/\n    .icon-bar a.contact::before { content: ''; } \/* Unicode for email icon *\/\n    .icon-bar a.about::before { content: ''; } \/* Unicode for book icon *\/\n<\/style>\n<\/head>\n<body>\n\n<div class=\"icon-bar\">\n  <a href=\"#\" class=\"home\"> Superior Cleaning <\/a>\n    <a href=\"#\" class=\"about\"> Ease of Use<\/a>\n    <a href=\"#\" class=\"services\"> Improved Oral Health<\/a>\n    <a href=\"#\" class=\"contact\"> Built-in Timers<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_cjdj9r": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Gre3E3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Replacement Brush Heads",
+            "heading_size": "h1"
+          }
+        },
+        "text_GDGrw3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Refresh your dental care routine with Kiwai electric toothbrush replacement brush heads. Designed for optimal performance and durability, these brush heads ensure effective cleaning for a healthier smile. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gre3E3",
+        "text_GDGrw3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_XbAB6K": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qhpFJX": {
+          "type": "heading",
+          "settings": {
+            "heading": "For your best clean, every time",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qhpFJX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn_AGyAcx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_79RFNN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Did-you-know-D.webp",
+            "title": "<strong>Did you know?<\/strong>",
+            "text": "<p>Dentists recommendreplacing your brush headevery 3 months.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XPtkQL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/iO-rbh-D_38795210-1b81-4081-90e2-b4326767f744.webp",
+            "title": "<strong>Kiwai series exclusives<\/strong>",
+            "text": "<p>Advanced bristle technologydeep cleans in hard-to-reachareas for your best clean yet.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RcY4MT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all-other-D.webp",
+            "title": "<strong>All other brush heads<\/strong>",
+            "text": "<p>Delivers our best-evercleaning performance toremove more plaque than aregular manual brush.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_79RFNN",
+        "column_XPtkQL",
+        "column_RcY4MT"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_QzCrNq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jYtXE7": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Inside",
+            "heading_size": "h1"
+          }
+        },
+        "text_XifChz": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong> Electric Toothbrush<\/strong> <strong> <\/strong><br\/>Waterproof body with ergonomic feel and no-slip handle.<br\/><strong>Charging Base <\/strong><br\/>USB-powered charging base provides up to 6 weeks of charge — longer than any other electric toothbrush.<br\/><strong> Brush Heads<\/strong><br\/>Easily interchangeable heads with superfine bristles.<\/p><p><strong>Travel Case<\/strong><br\/>Sleek, on-the-go brush case to take with you anywhere!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jYtXE7",
+        "text_XifChz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/whats-inside-desktop_750x_e063243a-4f9f-4c5f-a255-241b4da80519.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_WwkQx4": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/extensions-d-2x.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_Q7HJq7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_afyUdD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smart Touch screen",
+            "heading_size": "h1"
+          }
+        },
+        "text_DzRAXr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the future of dental care with our innovative smart touch screen technology. This cutting-edge toothbrush combines superior cleaning performance with intuitive controls, all at your fingertips.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_afyUdD",
+        "text_DzRAXr"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/oclean-x-pro-elite-02_2x_28305c0d-8653-42f0-84c3-9c661538a01a.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_DJj4iH",
+    "custom_liquid_43tBxE",
+    "related-products",
+    "image_with_text_cjdj9r",
+    "rich_text_XbAB6K",
+    "multicolumn_AGyAcx",
+    "image_with_text_QzCrNq",
+    "image_banner_WwkQx4",
+    "image_with_text_Q7HJq7"
+  ]
+}
